@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "types": [
+            "node",
+            "mocha",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+           // "@wdio/mocha-framework",
+            "@wdio/browserstack-service",
+            "reflect-metadata"
+        ],
+        "target": "es2019",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "lib": ["ES6"]       
+    }
+}
