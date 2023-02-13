@@ -8,3 +8,5 @@ import { loginSymbol } from "./login.symbol";
 export const loginContainer = new Container();
 
 loginContainer.bind<Login>(loginSymbol.Login).to(AndroidLoginScreen);
+
+//driver.isAndroid?AndroidLoginScreen:IosLoginScreen

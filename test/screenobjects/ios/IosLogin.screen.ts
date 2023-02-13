@@ -1,7 +1,7 @@
 //@ts-ignore
+import "reflect-metadata";
 import IosProductsScreen from "./IosProducts.screen";
 import { injectable } from "inversify";
-import "reflect-metadata";
 import { loginSymbol } from "../../../containers/login/login.symbol";
 import { Login } from "../../abstract classes/Login";
 

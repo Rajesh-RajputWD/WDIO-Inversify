@@ -2,7 +2,7 @@
 import AndroidLoginScreen from "../../screenobjects/android/AndroidLogin.screen.ts";
 //@ts-ignore
 import AndroidProductsScreen from "../../screenobjects/android/AndroidProducts.screen.ts";
-describe("TS test",()=>{
+describe("Sauce Product test",()=>{
     before(async()=>{
         await AndroidLoginScreen.performLogin()
     })

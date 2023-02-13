@@ -3,7 +3,7 @@ import { config } from "./wdio.conf.ts";
 
 (config.user = "rajeshrajput_z9TKaB"),
   (config.key = "SaLpvKg6dnjs6ERsXNWz"),
-  (config.specs = ["C:/Cigna/wdio-ts/test/specs/ios/loginOps.spec.ts"]),
+  (config.specs = ["C:/Users/2259866/OneDrive - Cognizant/Desktop/WDIO-Inversify/test/specs/inversifySpecs/login.spec.ts"]),
   (config.capabilities = [
     {
       platformName: "ios",

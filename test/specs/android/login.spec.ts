@@ -7,11 +7,12 @@ import { TYPES } from "../../../types";
 
 // import { loginPage } from "../../../interfaces.js";
 
-describe("TS test", () => {
+describe("Normal Login test", () => {
   // const test = myContainer.get<loginPage>(TYPES.loginPage)
 
-  it("Sauce demo login", async () => {
-    // await someCommand.performLogin()
+  it("Login_Without Inversify", async () => {
     // await AndroidLoginScreen.validateLogin()
+    // .performLogin()
+    //  await AndroidLoginScreen.validateLogin()
   });
 });

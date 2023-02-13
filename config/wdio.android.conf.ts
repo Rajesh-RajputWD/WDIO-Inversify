@@ -3,7 +3,7 @@ import { config } from "./wdio.conf.ts";
 
 (config.user = "rajeshrajput_z9TKaB"),
   (config.key = "SaLpvKg6dnjs6ERsXNWz"),
-  (config.specs = ['C:Users/2259866/OneDrive - Cognizant/Desktop/Cigna/WDIO Project/WDIO-Inversify/test/specs/inversifySpecs/login.spec.ts']),
+  (config.specs = ["C:/Users/2259866/OneDrive - Cognizant/Desktop/WDIO-Inversify/test/specs/inversifySpecs/product.spec.ts"]),
   (config.capabilities = [
     {
       platformName: "Android",
