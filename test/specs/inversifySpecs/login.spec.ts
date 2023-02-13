@@ -4,10 +4,10 @@ import { Login } from "../../abstract classes/Login";
 
 const login = loginContainer.get<Login>(loginSymbol.Login);
 
-describe("Inversify test ", () => {
+describe("Inversify_Test ", () => {
   it("Android Login_Inversify", async () => {
-    await login.performLogin("standard_user", "secret_sauce");
+    login.performLogin("standard_user", "secret_sauce");
 
-    await login.validateLogin();
+    login.validateLogin();
   });
 });

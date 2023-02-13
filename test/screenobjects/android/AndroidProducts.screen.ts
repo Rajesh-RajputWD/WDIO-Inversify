@@ -1,5 +1,3 @@
-
-
 import "reflect-metadata";
 import { injectable } from "inversify";
 import { Product } from "../../abstract classes/Product";
@@ -127,10 +125,6 @@ export default class ProductScreen extends Product {
     );
   }
 
-  //Helper fxn
-  //Help done : clicks on product. Product name should be exact. Partial txt not allowed
-  //Arguments : void
-  //Return value : void
   async clickOnProduct(productName: string): Promise<void> {
     await $(`//*[@text="${productName}"]`).click();
   }

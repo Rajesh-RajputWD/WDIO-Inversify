@@ -8,11 +8,16 @@ import { Login } from "../../abstract classes/Login";
 @injectable()
 export default class AndroidLoginScreen extends Login {
   get usernameField() {
-    return $("~test-Username");
+    //Find by UiAutomator
+    const Selector = 'new UiSelector().text("Username").className("android.widget.EditText")'
+    return $(`android=${Selector}`);
   }
 
   get passwordField() {
-    return $("~test-Password");
+    //FInd by UiAutomator
+    const Selector = 'new UiSelector().text("Password").className("android.widget.EditText")'
+    return $(`android=${Selector}`)
+    //return $("~test-Password");
   }
 
   get loginBtn() {

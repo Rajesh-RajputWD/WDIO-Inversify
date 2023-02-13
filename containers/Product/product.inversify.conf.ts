@@ -6,5 +6,4 @@ import { productSymbol } from "./product.symbol";
 import { Product } from "../../test/abstract classes/Product";
 
 export const productContainer = new Container();
-
 productContainer.bind<Product>(productSymbol.Product).to(AndroidProductsScreen);

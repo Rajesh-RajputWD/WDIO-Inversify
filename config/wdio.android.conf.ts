@@ -10,7 +10,7 @@ import { config } from "./wdio.conf.ts";
       "appium:platformVersion": "12.0",
       "appium:deviceName": "Samsung Galaxy S22 Ultra",
       "appium:automationName": "UIAutomator2",
-      "appium:app": "bs://9d285332cc5538647db53773150699d5b2f1a47b",
+      "appium:app": "bs://76aee2e2082d3c709e49e5da430f67f1b26c8f84",
     },
   ]);
 

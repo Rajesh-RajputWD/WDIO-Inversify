@@ -9,12 +9,12 @@ import { Product } from "../../abstract classes/Product";
 //const login = loginContainer.get(Login)(loginSymbol.Login);
 const login = loginContainer.get<Login>(loginSymbol.Login);
 const product = productContainer.get<Product>(productSymbol.Product);
-describe("Sauce Product test",()=>{
+describe("Product test",()=>{
     before(async()=>{
         await login.performLogin("standard_user", "secret_sauce")
     })
-    it("Click on product",async()=>{
+    it("Click--->product",async()=>{
         //Please enter the exact product name
-        await product.clickOnProduct("Sauce Labs Backpack")
+        await product.clickOnProduct("Sauce Labs Bike Light")
     })
 })
